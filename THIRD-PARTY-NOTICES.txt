@@ -18,6 +18,11 @@ AngleSharp
   Lisans: MIT
   Copyright (c) AngleSharp
 
+Jint
+  https://github.com/sebastienros/jint
+  Lisans: BSD 2-Clause
+  Copyright (c) Sebastien Ros
+
 Microsoft .NET 8 Runtime ve Windows Desktop Runtime
   https://github.com/dotnet/runtime, https://github.com/dotnet/wpf
   Lisans: MIT

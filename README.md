@@ -1,11 +1,11 @@
 # VodScraper
 
-Film ve dizileri arayıp **Türkçe altyazıyla** izlemek için Windows uygulaması. LookMovie2 ve Dizipal kaynaklarını
-destekler; videolar programın içindeki oynatıcıda açılır.
+Film ve dizileri arayıp **Türkçe altyazıyla** izlemek için Windows uygulaması. LookMovie2, Dizipal ve FilmMakinesi
+kaynaklarını destekler; videolar programın içindeki oynatıcıda açılır.
 
 ## İndir
 
-**[Son sürümü indir (Releases)](../../releases/latest)** → `VodScraper-Tasinabilir-1.0.0.zip`
+**[Son sürümü indir (Releases)](../../releases/latest)** → `VodScraper-Tasinabilir-1.0.1.zip`
 
 1. Zip'i bir klasöre çıkarın (ör. `Belgeler\VodScraper`).
 2. `VodScraperGui.exe` dosyasını çalıştırın. Kurulum gerekmez.
@@ -19,11 +19,13 @@ destekler; videolar programın içindeki oynatıcıda açılır.
 
 ## Kullanım
 
-- Üstten kaynak seçin (LookMovie2 / Dizipal), film veya dizi adını yazıp **Ara**.
+- Üstten kaynak seçin (LookMovie2 / Dizipal / FilmMakinesi), film veya dizi adını yazıp **Ara**.
 - Afişe tıklayın: filmlerde **İzle**; dizilerde sezon seçip bölümün yanındaki **İzle**.
 - Oynatıcıdaki ⚙ menüsünden ses (ör. Türkçe dublaj / İngilizce), altyazı dili ve kalite seçilir.
   Kaldığınız yer hatırlanır.
 - Kısayollar: Boşluk oynat/duraklat, ←/→ 10 sn, ↑/↓ ses, F tam ekran, C altyazı, M sessiz.
+- **♥ Favoriler:** detaydaki **Favorilere ekle** ile içerik favorilere alınır; üstteki **Favoriler** düğmesi listeyi
+  açar. Favorideki diziler için en son izlenen bölüm hatırlanır ve dizi açılınca o sezondan devam edilir.
 - **M3U olarak kaydet** / **Sezonu kaydet**: kayıtlar `Belgeler\VodScraper` klasörüne gider.
 
 ## Notlar
@@ -31,9 +33,11 @@ destekler; videolar programın içindeki oynatıcıda açılır.
 - **"Windows kişisel bilgisayarınızı korudu" uyarısı:** Program kod imzalama sertifikasıyla imzalanmadığı için
   SmartScreen bu uyarıyı gösterebilir. **Ek bilgi → Yine de çalıştır** ile açabilirsiniz.
 - Videolar programın içinden akar; program kapanınca oynatma da durur.
-- Site adresi değişirse (Dizipal sık değişir) `DIZIPAL_URL` ortam değişkeniyle yeni adres verilebilir.
+- Site adresi değişirse (Dizipal sık değişir) `DIZIPAL_URL` / `FILMMAKINESI_URL` ortam değişkenleriyle yeni adres
+  verilebilir.
+- FilmMakinesi'nde "Close" oynatıcısı desteklenir; yalnızca "Rapid" oynatıcısında olan içerikler açılmaz.
 
 ## Üçüncü taraf bileşenler
 
-hls.js (Apache-2.0), libcurl-impersonate (MIT), AngleSharp (MIT), .NET (MIT), Microsoft WebView2.
+hls.js (Apache-2.0), libcurl-impersonate (MIT), AngleSharp (MIT), Jint (BSD-2-Clause), .NET (MIT), Microsoft WebView2.
 Ayrıntılar: [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt)
