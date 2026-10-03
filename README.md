@@ -5,7 +5,7 @@ kaynaklarını destekler; videolar programın içindeki oynatıcıda açılır.
 
 ## İndir
 
-**[Son sürümü indir (Releases)](../../releases/latest)** → `VodScraper-Tasinabilir-1.0.1.zip`
+**[Son sürümü indir (Releases)](../../releases/latest)** → `VodScraper-Tasinabilir-1.0.2.zip`
 
 1. Zip'i bir klasöre çıkarın (ör. `Belgeler\VodScraper`).
 2. `VodScraperGui.exe` dosyasını çalıştırın. Kurulum gerekmez.
