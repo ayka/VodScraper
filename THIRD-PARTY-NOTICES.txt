@@ -1,0 +1,29 @@
+VodScraper üçüncü taraf bileşenleri
+====================================
+
+Bu uygulama aşağıdaki açık kaynak / yeniden dağıtılabilir bileşenleri içerir.
+
+hls.js 1.7.3
+  https://github.com/video-dev/hls.js
+  Lisans: Apache License 2.0 (tam metin: Player\hls.js-LICENSE.txt)
+  Copyright (c) 2017 Dailymotion
+
+libcurl-impersonate (curl_cffi derlemesi)
+  https://github.com/lexiforest/curl-impersonate
+  Lisans: MIT; curl kısmı curl lisansı (MIT/X türevi)
+  Copyright (c) Daniel Stenberg ve curl katkıcıları
+
+AngleSharp
+  https://github.com/AngleSharp/AngleSharp
+  Lisans: MIT
+  Copyright (c) AngleSharp
+
+Microsoft .NET 8 Runtime ve Windows Desktop Runtime
+  https://github.com/dotnet/runtime, https://github.com/dotnet/wpf
+  Lisans: MIT
+  Copyright (c) .NET Foundation and Contributors
+
+Microsoft Edge WebView2 SDK ve WebView2 Runtime önyükleyicisi
+  https://developer.microsoft.com/microsoft-edge/webview2/
+  Microsoft Software License Terms (yeniden dağıtıma izin verir)
+  Copyright (c) Microsoft Corporation
